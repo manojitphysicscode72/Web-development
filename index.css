@@ -1,0 +1,113 @@
+body{background-color:#0b1625}
+h1{color:#ffd670}
+
+main{color:#cbf3f0}
+footer{color:#461a05}
+a{color:rgb(219, 155, 187)}
+
+header{
+    background-color:#2A9D8F
+}
+h1{
+    text-align: center;
+}
+div{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word; 
+    font-weight: 100;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;}
+#quote{
+    color:rgb(156, 224, 156);
+    text-align:center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+      } 
+
+
+  #quote{
+    padding-top: 2px;
+    /* padding-right: 2px; */
+    padding-bottom: 25px;
+    /* padding-left: 2px; */
+  }
+
+  #body{
+    padding-top: 2px;
+    padding-right: 35px; 
+    padding-bottom: 5px;
+    padding-left: 35px; 
+  }
+
+  #body1{
+    padding-top: 2px;
+    padding-right: 35px; 
+    padding-bottom: 5px;
+    padding-left: 35px; 
+  }
+  footer{
+    padding-top: 2px;
+    padding-right: 35px; 
+    padding-bottom: 5px;
+    padding-left: 35px; 
+  }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #7E8E61;
+    flex-wrap: wrap; /* Allows the right section to move below the left section if needed */
+}
+
+.left {
+    text-align: left;
+    flex: 1; /* Allows the left section to take available space */
+    margin-right: 20px; /* Adds some space between the sections */
+}
+
+.right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1; /* Allows the right section to take available space */
+}
+
+footer a {
+    text-decoration: none;
+    color: #032142;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0; /* Adds vertical space around the horizontal line */
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /* Space between the icon and the link text */
+    align-items: center;
+}
+
+.divider{
+    background-color:#33658a;
+}
